@@ -53,6 +53,24 @@ ol, ul {
   margin-left: 20px;
 }
 
-.game-moves .current {
+.game-moves {
+  width: 180px;
+}
+
+.history-button {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  font-weight: 400;
+  text-decoration:underline;
+  background:transparent;
+  border:none;
+  outline:none;
+  cursor:pointer;
+}
+
+.history-button:hover {
+  color:blue;
+}
+
+.game-moves .current .history-button {
   font-weight: 700;
 }
